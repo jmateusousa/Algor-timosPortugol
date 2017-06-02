@@ -1,0 +1,19 @@
+Algoritmo "triangulo"
+
+Var
+   L1, L2, L3: REAL
+   EQL, ESL: LOGICO
+Inicio
+   ESCREVA ("ESCREVA O L1 ")
+   LEIA (L1)
+   ESCREVA ("ESCREVA O L2 ")
+   LEIA (L2)
+   ESCREVA ("ESCREVA O L3 ")
+   LEIA (L3)
+   EQL <- L1=L2=L3
+   SE EQL=VERDADEIRO ENTAO
+   ESCREVA("É UM TRIANGULO EQUILATERO")
+   SENAO
+   ESCREVA("É UM TRIANGULO ESCALENO")
+   FIMSE
+Fimalgoritmo
